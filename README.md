@@ -18,7 +18,19 @@ Create ROI for PM, IMAT, and SAT
 
 ### This Repository is Private
 
-Current Data:
+# Current Data:
 
-# Ground Truth Example 1
+## Ground Truth Example 1
 ![alt text](https://github.com/qahathaway/Automated_Segmentation_PTM-IMAT-SAT/blob/main/Ground_Truth_1.png)
+
+## Ground Truth Example 2
+![alt text](https://github.com/qahathaway/Automated_Segmentation_PTM-IMAT-SAT/blob/main/Ground_Truth_2.png)
+
+## Computer Vision 1
+![alt text](https://github.com/qahathaway/Automated_Segmentation_PTM-IMAT-SAT/blob/main/Random_1.png)
+
+## Computer Vision 2
+![alt text](https://github.com/qahathaway/Automated_Segmentation_PTM-IMAT-SAT/blob/main/Random_2.png)
+
+## Computer Vision 3
+![alt text](https://github.com/qahathaway/Automated_Segmentation_PTM-IMAT-SAT/blob/main/Random_3.png)
