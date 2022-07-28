@@ -20,4 +20,5 @@ Create ROI for PM, IMAT, and SAT
 
 Current Data:
 
-![alt text](https://github.com/qahathaway/Cardiac_Remodeling_Radiomics/blob/main/Central%20Illustration.jpg)
+# Ground Truth Example 1
+![alt text](https://github.com/qahathaway/Automated_Segmentation_PTM-IMAT-SAT/blob/main/Ground_Truth_1.png)
