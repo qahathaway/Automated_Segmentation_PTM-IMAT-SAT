@@ -20,3 +20,4 @@ Create ROI for PM, IMAT, and SAT
 
 Current Data:
 
+![alt text](https://github.com/qahathaway/Cardiac_Remodeling_Radiomics/blob/main/Central%20Illustration.jpg)
