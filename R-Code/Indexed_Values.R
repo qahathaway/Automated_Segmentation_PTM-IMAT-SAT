@@ -9,16 +9,16 @@ library(ggplot2)
 library(ggfortify)
 library(survminer)
 
-AIMUSCLE = read.csv('C:/Users/hamza/OneDrive/Desktop/Research/Post-Doc Stuff/Three Projects MESA Cleanup/MESA Incident CHF/Datasets/Area_cm2.csv')
+AIMUSCLE = read.csv('path/to/file.csv')
 
 #Getting rid of the MESA at the from of every study ID and relabelling it idno for mergin ease
 AIMUSCLE$idno = substr(AIMUSCLE$Study_ID, 5, 11)
 AIMUSCLE$idno = as.numeric(AIMUSCLE$idno)
 
 ##Importing Other Datasets
-FINALTAGGED = read_sav('C:/Users/hamza/OneDrive/Desktop/Research/Post-Doc Stuff/Three Projects MESA Cleanup/MESA Incident CHF/Datasets/MESAe5_FinalLabel_20171005.sav')
+FINALTAGGED = read_sav('path/to/file.sav')
 
-IncidentHF = read_sav('C:/Users/hamza/OneDrive/Desktop/Research/Post-Doc Stuff/Three Projects MESA Cleanup/MESA Incident CHF/Datasets/MESAEvThru2017AllCohort_20191004.sav')
+IncidentHF = read_sav('path/to/file.sav')
 
 #Exclude people with prior events
 
@@ -141,7 +141,7 @@ Summary = DATA %>% select(age5c, gender1, pkyrs5c, htn5c, agatpm5c, iai5c1, EML5
       missing = 'no'
     ))
 
-gt::gtsave(as_gt(Summary), file = 'C:/Users/hamza/OneDrive/Desktop/Research/Post-Doc Stuff/Three Projects MESA Cleanup/MESA Incident CHF/PostMeetingResults/NOBMINOINDEXRGeneratedDescriptive.rtf')
+gt::gtsave(as_gt(Summary), file = 'path/to/file.rtf')
 
 
 #Calculating Derivative MRI VARIABLES
