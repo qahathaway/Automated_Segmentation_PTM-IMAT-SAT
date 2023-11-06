@@ -14,3 +14,5 @@ Comparison of manual measurements (n=600) to the deep-learning generated traces 
 
 ## PM, SAT, IMAT, PAT, and EML
 ![alt text](https://github.com/qahathaway/Automated_Segmentation_PTM-IMAT-SAT/blob/main/Features.jpg)
+
+### Code is made freely available for academic research and teaching. The code within this repository cannot be freely used for commercial applications.
