@@ -1,5 +1,8 @@
 # Automated Segmentation of Axial CT for Delineation of Pectoralis Muscle
 
+## Training weights and COCO weights
+**Please contact qahathaway if you need the training weights or the pre-trained COCO weights, as storage on GitHub is difficult to maintain**
+
 ## Background
 Using computed tomography (CT), pectoralis muscle density and intramuscular fat deposition have been correlated with adverse health outcomes. It is unclear if pectoralis muscle measurements can be prospectively associated with incident heart failure, pneumonia, and other chronic medical conditions and if the use of automated detection tools can bypass the need for cumbersome, manual measurements.
 
